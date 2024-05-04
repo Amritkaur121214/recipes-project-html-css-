@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+background-color:  rgb(25,25,28);
+background: linear-gradient(90deg, rgba(25,25,28,0.9108018207282913) 0%, rgba(50,50,113,1) 35%, rgba(0,212,255,1) 100%);;
+height: 100%;
+width: 100%;
+overflow-x: none;
+
+
+}
+.nav-container{
+width: 100vw;
+background-color: black;
+min-height: 80px;
+display: flex;
+/*justify-content:center;*/
+align-items: center;
+}
+#navlogo{
+    height:90px ;
+    width: 100px;
+    background-image: url("crazy\ logo.jpg");
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+}
+#nav-list{
+    margin-left: 15px ;
+    margin-right: 15px;
+  
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+   
+
+}
+#anchors{
+    display: flex;
+    gap: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*main*/
+.contentBox{
+    background-color: #E3E4DB;
+    width: 50%;
+    
+    margin: auto;
+   display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 20px  black;
+}
+.h1{
+    font-size: 3rem;
+    font-weight: bold;
+   color: #3B252C;
+
+}
+.h2{
+    color: #0B3C49;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.h3{
+    color: #0B3C49;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.item{
+    color: #553555;
+}
+.process{
+    color: #553555;
+}
+.dish{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.leftBox h1{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.item{
+    font-size: 1rem;
+    
+}
+.rightBox img{
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.4s linear 0s;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 2px 4px rgb(80, 79, 79);
+}
+
+
+/*footer*/
+.footerBox{
+    color: azure;
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
